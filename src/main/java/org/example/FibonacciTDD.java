@@ -17,7 +17,6 @@ public class FibonacciTDD {
             fib += prevFib;
             prevFib = temp;
         }
-
         return fib;
     }
 }

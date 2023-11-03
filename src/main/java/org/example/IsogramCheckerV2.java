@@ -6,8 +6,6 @@ public class IsogramCheckerV2 {
         return str.length() == str.toLowerCase().chars().distinct().count();
     }
     public static void main(String[] args) {
-
         System.out.println(isIsogram("moOse")); // false
-
     }
 }
