@@ -12,7 +12,7 @@ class IsogramCheckerTest {
             assertEquals(false, IsogramChecker.isIsogram("moose"));
             assertEquals(false, IsogramChecker.isIsogram("isIsogram"));
             assertEquals(false, IsogramChecker.isIsogram("aba"));
-            //assertEquals(false, IsogramChecker.isIsogram("moOse"));
+            assertEquals(false, IsogramChecker.isIsogram("moOse"));
             assertEquals(true, IsogramChecker.isIsogram("thumbscrewjapingly"));
             assertEquals(true, IsogramChecker.isIsogram(""));
         }

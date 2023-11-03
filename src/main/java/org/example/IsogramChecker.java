@@ -5,7 +5,8 @@ import java.util.HashSet;
 
 public class IsogramChecker {
     public static boolean isIsogram(String str) {
-        char[] charArray = str.toCharArray();
+        String string = str.toLowerCase();
+        char[] charArray = string.toCharArray();
         Set<Character> seenChars = new HashSet<>();
         for (char c : charArray) {
             if (seenChars.contains(c)) return false;
